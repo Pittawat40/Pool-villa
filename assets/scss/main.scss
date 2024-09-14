@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "IBM-Regular";
+  src: url("/static/fonts/IBM/IBMPlexSansThai-Regular.ttf") format('ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #e9efec;
+  font-family: "IBM-Regular";
+}
