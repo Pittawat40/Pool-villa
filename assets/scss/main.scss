@@ -1,12 +1,16 @@
-@font-face {
-  font-family: "IBM-Regular";
-  src: url("/static/fonts/IBM/IBMPlexSansThai-Regular.ttf") format('ttf');
-}
+$c-primary: #0b59a4;
+$c-gray: #e9eae9;
+$c-white: #fff;
+$c-green: #48cfcb;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #e9efec;
-  font-family: "IBM-Regular";
+  background: $c-gray;
 }
+
+body {
+  font-family: "Lato";
+}
+

@@ -1,6 +1,7 @@
 <template>
   <div class="section">
     <div class="left">
+      <!-- <Icon name="mingcute:tree-4-line" /> -->
       <span>Ban Pool villa</span>
     </div>
     <div class="right">
@@ -23,10 +24,13 @@
   width: 100%;
   padding: 1.5rem 3rem;
   background: transparent;
+  z-index: 1000;
 
   .left {
+    background: transparent;
     span {
       text-transform: uppercase;
+      background: transparent;
       font-size: 1.5rem;
       font-weight: bold;
     }
@@ -37,9 +41,10 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-
+    background: transparent;
     span {
       text-transform: uppercase;
+      background: transparent;
       font-size: 1rem;
     }
   }

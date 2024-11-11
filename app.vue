@@ -1,6 +1,6 @@
 <template>
   <div class="panel">
     <Header />
-    <!-- <Banner /> -->
+    <Banner />
   </div>
 </template>

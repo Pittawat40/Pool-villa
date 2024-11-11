@@ -11,11 +11,14 @@
   },
   "dependencies": {
     "@nuxt/icon": "^1.5.1",
+    "@nuxtjs/google-fonts": "^3.2.0",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
-    "sass": "^1.78.0"
+    "node-sass": "^9.0.0",
+    "sass": "^1.78.0",
+    "sass-loader": "^16.0.1"
   }
 }
